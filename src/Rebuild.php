@@ -2,8 +2,10 @@
 
 namespace CodingSaxony\ArrayToDataTransferObject;
 
+use CodingSaxony\Helpers\DocBlock;
 use ReflectionClass;
 use ReflectionException;
+use ReflectionUnionType;
 use stdClass;
 
 class Rebuild
@@ -47,7 +49,7 @@ class Rebuild
 
             $docBlock = new DocBlock($property->getDocComment());
 
-            if ($property->getType() instanceof \ReflectionUnionType) {
+            if ($property->getType() instanceof ReflectionUnionType) {
                 $field = [
                     'responseKey' => $docBlock->tag('key')[0],
                 ];
