@@ -2,7 +2,7 @@
 
 namespace CodingSaxony\ArrayToDataTransferObject;
 
-use CodingSaxony\Helpers\DocBlock;
+use CodingSaxony\ArrayToDataTransferObject\Helpers\DocBlock;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionUnionType;
