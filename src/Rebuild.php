@@ -211,9 +211,9 @@ class Rebuild
 
     private static function findConverterAndConvertData(mixed $data, string $fieldType)
     {
-        $fieldType = 'is_' . $fieldType;
+        $fieldTypeFunction = 'is_' . $fieldType;
 
-        if ($fieldType($data) === false) {
+        if ($fieldTypeFunction($data) === false) {
             return self::convertData($data, $fieldType);
         } else {
             return $data;
