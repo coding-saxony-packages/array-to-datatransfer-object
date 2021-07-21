@@ -7,6 +7,7 @@
     "issues": "https://github.com/coding-saxony/array-to-datatransfer-object/issues",
     "source": "https://github.com/coding-saxony/array-to-datatransfer-object"
   },
+  "minimum-stability": "dev",
   "homepage": "https://github.com/coding-saxony/array-to-datatransfer-object",
   "authors": [
     {
