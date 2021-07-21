@@ -1,11 +1,11 @@
 <?php
 
-namespace CodingSaxony\Converters;
+namespace CodingSaxony\ArrayToDataTransferObject\Converters;
 
 /**
  * Class StringToInt
  *
- * @package CodingSaxony\Converters
+ * @package CodingSaxony\ArrayToDataTransferObject\Converters
  */
 class StringToInt
 {

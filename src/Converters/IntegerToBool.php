@@ -3,18 +3,18 @@
 namespace CodingSaxony\ArrayToDataTransferObject\Converters;
 
 /**
- * Class StringToBool
+ * Class IntegerToBool
  *
  * @package CodingSaxony\ArrayToDataTransferObject\Converters
  */
-class StringToBool
+class IntegerToBool
 {
     /**
-     * @param string $value
+     * @param int $value
      *
-     * @return bool
+     * @return string
      */
-    public static function convert(string $value): bool
+    public static function convert(int $value): string
     {
         return (bool) $value;
     }
