@@ -1,0 +1,32 @@
+{
+  "name": "coding-saxony/array-to-datatransfer-object",
+  "description": "This library converts an array into the specified DataTransferObject.",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/coding-saxony/array-to-datatransfer-object/issues",
+    "source": "https://github.com/coding-saxony/array-to-datatransfer-object"
+  },
+  "homepage": "https://github.com/coding-saxony/array-to-datatransfer-object",
+  "authors": [
+    {
+      "name": "Jonas Hanisch",
+      "email": "jonas.hanisch@ffenergie.de"
+    }
+  ],
+  "require": {
+    "php": "8.0",
+    "spatie/data-transfer-object": "^3.2",
+    "phpdocumentor/reflection-docblock": "^5.2"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0",
+    "facade/ignition"    : "^1.4|^2.3.6"
+  },
+  "autoload"   : {
+    "psr-4": {
+      "CodingSaxony\\ArrayToDataTransferObject\\": "src/"
+    }
+  }
+}
