@@ -18,9 +18,10 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "spatie/data-transfer-object": "^3.2",
-    "phpdocumentor/reflection-docblock": "^5.2"
+    "php"                              : "^8.0",
+    "spatie/data-transfer-object"      : "^3.2",
+    "phpdocumentor/reflection-docblock": "^5.2",
+    "ext-ctype"                        : "*"
   },
   "require-dev": {
     "orchestra/testbench": "^4.0|^5.0|^6.0",
