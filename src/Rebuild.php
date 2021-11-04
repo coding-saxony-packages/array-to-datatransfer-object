@@ -1,8 +1,8 @@
 <?php
 
-namespace CodingSaxony\ArrayToDataTransferObject;
+namespace CodingSaxonyPackages\ArrayToDataTransferObject;
 
-use CodingSaxony\ArrayToDataTransferObject\Helpers\DocBlock;
+use CodingSaxonyPackages\ArrayToDataTransferObject\Helpers\DocBlock;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionUnionType;
@@ -222,7 +222,7 @@ class Rebuild
 
     private static function convertData(mixed $data, string $fieldType)
     {
-        $converter = '\\CodingSaxony\\ArrayToDataTransferObject\\Converters\\' . ucfirst(gettype($data)) . 'To' . ucfirst($fieldType);
+        $converter = '\\CodingSaxonyPackages\\ArrayToDataTransferObject\\Converters\\' . ucfirst(gettype($data)) . 'To' . ucfirst($fieldType);
 
         return $converter::convert($data);
     }

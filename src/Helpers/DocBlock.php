@@ -1,6 +1,6 @@
 <?php
 
-namespace CodingSaxony\ArrayToDataTransferObject\Helpers;
+namespace CodingSaxonyPackages\ArrayToDataTransferObject\Helpers;
 
 use ReflectionClass;
 use ReflectionException;

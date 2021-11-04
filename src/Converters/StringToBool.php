@@ -1,11 +1,11 @@
 <?php
 
-namespace CodingSaxony\ArrayToDataTransferObject\Converters;
+namespace CodingSaxonyPackages\ArrayToDataTransferObject\Converters;
 
 /**
  * Class StringToBool
  *
- * @package CodingSaxony\ArrayToDataTransferObject\Converters
+ * @package CodingSaxonyPackages\ArrayToDataTransferObject\Converters
  */
 class StringToBool
 {

@@ -1,14 +1,14 @@
 {
-  "name": "coding-saxony/array-to-datatransfer-object",
+  "name": "coding-saxony-packages/array-to-datatransfer-object",
   "description": "This library converts an array into the specified DataTransferObject.",
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/coding-saxony/array-to-datatransfer-object/issues",
-    "source": "https://github.com/coding-saxony/array-to-datatransfer-object"
+    "issues": "https://github.com/coding-saxony-packages/array-to-datatransfer-object/issues",
+    "source": "https://github.com/coding-saxony-packages/array-to-datatransfer-object"
   },
   "minimum-stability": "dev",
-  "homepage": "https://github.com/coding-saxony/array-to-datatransfer-object",
+  "homepage": "https://github.com/coding-saxony-packages/array-to-datatransfer-object",
   "authors": [
     {
       "name": "Jonas Hanisch",
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CodingSaxony\\ArrayToDataTransferObject\\": "src/"
+      "CodingSaxonyPackages\\ArrayToDataTransferObject\\": "src/"
     }
   }
 }
