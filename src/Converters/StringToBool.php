@@ -16,6 +16,6 @@ class StringToBool
      */
     public static function convert(string $value): bool
     {
-        return (bool) $value;
+        return boolval($value);
     }
 }

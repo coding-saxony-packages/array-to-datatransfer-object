@@ -12,10 +12,10 @@ class IntegerToBool
     /**
      * @param int $value
      *
-     * @return string
+     * @return bool
      */
-    public static function convert(int $value): string
+    public static function convert(int $value): bool
     {
-        return (bool) $value;
+        return boolval($value);
     }
 }

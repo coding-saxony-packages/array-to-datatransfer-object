@@ -19,7 +19,7 @@ class ArrayToBool
         $convertedValue = false;
 
         if (empty($value) === false) {
-            $convertedValue = (bool) $value[0];
+            $convertedValue = boolval($value[0]);
         }
 
         return $convertedValue;
